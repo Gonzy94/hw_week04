@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Code Quiz</title>
+    </head>
+    <body class="body">
+        
+        <!--(1)create a container first-->
+       <div class="container">
+           <!--(2)next, create a question container. Create a class of hide so we know its hidden by default-->
+          <div id="question-container" class="hide">
+              <!--(4)create a div that will contain questions-->
+              <div id="question">Question</div>
+              <!--(5)create another div that will contain answer buttons-->
+              <div id="answer-buttons" class="btn-grid">
+                  <button class="btn">Answer 1</button>
+                  <button class="btn">Answer 2</button>
+                  <button class="btn">Answer 3</button>
+                  <button class="btn">Answer 4</button>
+              </div>
+          </div>
+          <!--(3)before adding question info, add control buttons-->
+          <div class="controls">
+              <button id="start-btn" class="start-btn btn">Start</button>
+              <button id="next-btn" class="next-btn btn hide">Next</button>
+          </div> 
+       </div> 
+    </body>
+</html>
